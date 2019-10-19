@@ -1,0 +1,2 @@
+# NoticiaAppIO
+App Ionic4
