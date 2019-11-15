@@ -1,0 +1,44 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Agregar</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item >
+      <ion-label position="floating">Título</ion-label>
+      <ion-input placeholder="Ingrese un Título"></ion-input>
+    </ion-item>
+
+    <ion-item >
+        <ion-label position="floating">Descripción</ion-label>
+        <ion-textarea placeholder="Ingrese una Descripción"></ion-textarea>
+    </ion-item>
+
+    <ion-item >
+        <ion-label position="floating">Contenido</ion-label>
+        <ion-textarea placeholder="Ingrese un Contenido"></ion-textarea>
+    </ion-item>
+
+    <ion-item >
+        <ion-label position="floating">Fecha</ion-label>
+        <ion-datetime display-format = "DD,MMM,YYYY"></ion-datetime>
+    </ion-item>
+
+    <ion-item >
+        <ion-label position="floating">Autor</ion-label>
+        <ion-select placeholder="Seleccionar Autor" interface="popover">
+          <ion-select-option value="f">Female</ion-select-option>
+          <ion-select-option value="m">Male</ion-select-option>
+        </ion-select>
+    </ion-item>
+
+    <ion-button expand="block">
+      Guardar
+    </ion-button>
+  </ion-list>
+</ion-content>

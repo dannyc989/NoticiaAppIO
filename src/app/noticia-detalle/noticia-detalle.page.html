@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{ noticia.titulo }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>{{ noticia.descripcion }}</h2>
+  <p><strong>Autor:</strong>{{ noticia.autor.name }} {{ noticia.autor.apellido }}</p>
+  <p><strong>Fecha:</strong>{{ noticia.fecha | date }}</p>
+</ion-content>
